@@ -27,7 +27,7 @@ fun calculationСommission(nameCard: String, transferAmount: Int) {
 
 fun commissionVisaMir(transferAmount: Int): Int {
     if (transferAmount / 100 * 0.75 < 3500) {
-        return transferAmount + 3500 * 2
+        return transferAmount + 3500
     } else
         return transferAmount + (transferAmount / 100 * 0.75).toInt()
 }
