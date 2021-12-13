@@ -7,7 +7,7 @@ class MainKtTest {
     @Test
     fun commissionVisaMir() {
         transferAmount = 100000
-        assertEquals(100750, commissionVisaMir(100000))
+        assertEquals(103500, commissionVisaMir(100000))
     }
 
     @Test

@@ -27,16 +27,16 @@ fun calculationСommission(nameCard: String, transferAmount: Int) {
 
 fun commissionVisaMir(transferAmount: Int): Int {
     if (transferAmount / 100 * 0.75 < 3500) {
-        return transferAmount + 3500 * 2
+        return transferAmount + 3500
     } else
-        return transferAmount + (transferAmount / 100 * 0.75).toInt() * 2
+        return transferAmount + (transferAmount / 100 * 0.75).toInt()
 }
 
 fun commissionMastercardMaestro(transferAmount: Int, stock: Boolean): Int {
     if (transferAmount >= 300 && transferAmount <= 75000 && stock == true) {
         return transferAmount
     } else
-        return ((transferAmount / 100 * 0.6) + 2000).toInt()
+        return transferAmount + ((transferAmount / 100 * 0.6) + 2000).toInt()
 }
 
 fun limitСontrol(nameCard: String, sumTransferMonth: Int, transferAmount: Int, sumTransferDay: Int) {
