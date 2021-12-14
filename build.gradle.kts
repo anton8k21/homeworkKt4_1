@@ -14,10 +14,6 @@ repositories {
 
 dependencies {
     implementation("org.junit.jupiter:junit-jupiter:5.7.0")
-    implementation("org.junit.jupiter:junit-jupiter:5.7.0")
-    implementation("org.junit.jupiter:junit-jupiter:5.7.0")
-    implementation("org.junit.jupiter:junit-jupiter:5.7.0")
-    implementation("org.junit.jupiter:junit-jupiter:5.7.0")
     testImplementation(kotlin("test"))
     // https://mvnrepository.com/artifact/junit/junit
     testImplementation ("org.junit.jupiter:junit-jupiter:4.13.2")

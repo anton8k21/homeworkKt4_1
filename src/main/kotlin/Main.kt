@@ -5,6 +5,7 @@ var sumTransferMonth = 3345
 var sumTransferDay = 222348678
 var transferAmount = 233645
 var stock = true
+var nameCard: String = ""
 
 fun main(args: Array<String>) {
 
